@@ -17,7 +17,7 @@ const statsOptions = {
   chunkOrigins: false
 };
 
-globalCssLoader = [
+const globalCssLoader = [
   "css-hot-loader", // see: https://github.com/webpack-contrib/mini-css-extract-plugin/issues/34#issuecomment-378594368
   MiniCssExtractPlugin.loader,
   {
